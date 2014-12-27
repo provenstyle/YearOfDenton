@@ -1,3 +1,51 @@
 .image-bg-courthouse {
 	background-image: url('../img/courthouse.jpg');
 }
+
+#start {
+	min-height: 500px;
+}
+
+.calendar-entries {
+	border-top: 1px solid #ccc;
+	/* border-bottom: 1px solid #ccc; */
+	margin: 1em 0;
+	padding: 1.5em 0 0 0;
+	position: relative;
+}
+
+.calendar-entries::before {
+	position: absolute;
+	left: 0;
+	top: -12px;
+	display: inline-block;
+	background: #FFF;
+	padding-right: 1em;
+	font-size: 13px;
+	font-size: 0.8125rem;
+	font-family: "Open Sans", helvetica, arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #9f9f9f;
+}
+.calendar-entries h4,
+.post-recent-widget h4 {
+	font-size: 14px !important;
+	margin-top: 8px;
+	
+}
+.calendar-entries img, 
+.post-recent-widget img{
+	border-radius: 4px;
+}
+.calendar-entries a:hover img,
+.post-recent-widget a:hover img {
+	opacity: 0.6;
+	transition: all 0.5s ease 0s;
+}
+.calendar-entries .media a.pull-left {
+	border: 0;
+}
+.calendar-entries .media a.pull-left:hover {
+	border: 0;
+}
