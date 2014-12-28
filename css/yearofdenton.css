@@ -6,6 +6,10 @@
 	min-height: 500px;
 }
 
+.blog{
+	padding: 0 10px;
+}
+
 .calendar-entries {
 	border-top: 1px solid #ccc;
 	/* border-bottom: 1px solid #ccc; */
